@@ -42,6 +42,8 @@ import { getUserById } from "@/lib/services/user.service";
 import type { ApiProduct, ListingWithSeller, Student } from "@/lib/types";
 import { formatDate, formatNumber } from "@/lib/utils";
 
+export const dynamic = "force-dynamic";
+
 interface ListingPageProps {
   params: Promise<{ id: string }>;
 }

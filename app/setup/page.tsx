@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 import { getSessionUser } from "@/lib/auth/session";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Profile setup",
   description: "Account setup is handled by login and registration.",

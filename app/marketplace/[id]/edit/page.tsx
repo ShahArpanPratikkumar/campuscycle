@@ -11,6 +11,8 @@ import { getCurrentStudentId } from "@/lib/session";
 import { getProductById } from "@/lib/services/product.service";
 import type { ApiProduct } from "@/lib/types";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = { title: "Edit listing" };
 
 interface EditListingPageProps {

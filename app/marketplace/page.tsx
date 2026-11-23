@@ -23,6 +23,8 @@ import {
 import { listProducts } from "@/lib/services/product.service";
 import { pluralize } from "@/lib/utils";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Marketplace",
   description:
